@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55305C72788C0F900FFD5FC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55305C62788C0F900FFD5FC /* MyCollectionViewCell.swift */; };
 		FCF124C222D7B8CD005CF194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF124C122D7B8CD005CF194 /* AppDelegate.swift */; };
 		FCF124C422D7B8CD005CF194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF124C322D7B8CD005CF194 /* SceneDelegate.swift */; };
 		FCF124C622D7B8CD005CF194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF124C522D7B8CD005CF194 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A55305C62788C0F900FFD5FC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		FCF124BE22D7B8CD005CF194 /* LandmarkBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandmarkBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF124C122D7B8CD005CF194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCF124C322D7B8CD005CF194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				FCF124CA22D7B8CE005CF194 /* Assets.xcassets */,
 				FCF124CC22D7B8CE005CF194 /* LaunchScreen.storyboard */,
 				FCF124CF22D7B8CE005CF194 /* Info.plist */,
+				A55305C62788C0F900FFD5FC /* MyCollectionViewCell.swift */,
 			);
 			path = LandmarkBook;
 			sourceTree = "<group>";
@@ -112,7 +115,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "Atil Samancioglu";
 				TargetAttributes = {
 					FCF124BD22D7B8CD005CF194 = {
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF124C622D7B8CD005CF194 /* ViewController.swift in Sources */,
+				A55305C72788C0F900FFD5FC /* MyCollectionViewCell.swift in Sources */,
 				FCF124C222D7B8CD005CF194 /* AppDelegate.swift in Sources */,
 				FCF124E022D7C3C5005CF194 /* imageViewController.swift in Sources */,
 				FCF124C422D7B8CD005CF194 /* SceneDelegate.swift in Sources */,
@@ -216,6 +220,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -276,6 +281,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
